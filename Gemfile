@@ -44,8 +44,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+gem 'rails-controller-testing', '1.0.2'
+
 group :development do
-  gem 'rails-controller-testing', '1.0.2'
+  
   gem 'minitest',                 '5.11.3'
   gem 'minitest-reporters',       '1.1.14'
   gem 'guard',                    '2.13.0'
